@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Xen Store</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="headercontent">
+            <img id="header-img" class="imgStyle" src="./logo.png" alt="Logo de la empresa">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li><a class="nav-link" href="#productos">Productos</a></li>
+                    <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="nosotros">
+            <div class="divOne">
+                <h1 class="title">XEN VIRTUAL STORE</h1>
+                <p class="subtitle">¡Las 3 mejores PC del mercado 2022 Argentina!.</p>
+                <iframe id="video" class="video" src="https://www.youtube.com/embed/UHOms1UHgBI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p class="subtitle">¡Solicita tu pc con nosotros!. ¡El mejor precio del mercado!.</p>
+            </div>
+        </section>
+        <section id="productos">
+            <hr class="hr">
+            <h2 class="titleTwo text-align">Las mejores PC's del momento en Argentina (2022).</h2>
+            <p class="subtitle text-align">Según precio y calidad.</p>
+            <div class="container">
+                <div class="pc-div">
+                    <div>
+                        <img class="pc-one" src="./pc_1.jpg" alt="Gabinete Xigmatek Eros">
+                        <p>Ryzen 5 5600G</p>
+                        <p>Asus Prime A520M-K</p>
+                        <p>2x8 Kingston ValueRAM 2666Mhz</p>
+                        <p>Tarjeta de video integrada</p>
+                        <p>SSD Kingston A400 480GB</p>
+                        <p>Corsair CV 550</p>
+                        <p>Gabinete Xigmatek Eros</p>
+                    </div>
+                    <div>
+                        <h3>$300 USD</h3>
+                        <a href="#productos">Comprar</a>
+                    </div>
+                </div>
+                <div class="pc-div">
+                    <h2></h2>
+                    <div>
+                        <img class="pc-one" src="./pc_2.jpg" alt="Gabinete Thermaltake V250">
+                        <p>Intel Core I5-10400F</p>
+                        <p>Asus Prime H410M-A</p>
+                        <p>2x8 HyperX Fury 2666Mhz</p>
+                        <p>MSI Ventus GTX 1650 4GB</p>
+                        <p>HDD 1TB WD BLUE</p>
+                        <P>SSD M2 WD GREEN 240GB</P>
+                        <p>SSD Kingston A400 480GB</p>
+                        <p>Corsair CV 550</p>
+                        <p>Gabinete Thermaltake V250</p>
+                    </div>
+                    <div>
+                        <h3>$600 USD</h3>
+                        <a href="#productos">Comprar</a>
+                    </div>
+                </div>
+                <div class="pc-div">
+                    <div>
+                        <img class="pc-one" src="./pc_3.jpg" alt="Gabinete Cooler Master MB520">
+                        <p>Ryzen 5 5600X</p>
+                        <p>Asus Prime B550M-A</p>
+                        <p>2x8 Hyperx Fury RGB 3200Mhz</p>
+                        <p>EVGA XC 3060 12GB</p>
+                        <p>SSD NVME 1TB WD BLUE</p>
+                        <p>EVGA 600B</p>
+                        <p>Gabinete Cooler Master MB520</p>
+                    </div>
+                    <div>
+                        <h3>$1200 USD</h3>
+                        <a href="#productos">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <hr class="hr">
+            <h4 class="titlethree text-align">¿Tenes dudas?</h4>
+            <p class="subtitle text-align">¡Contactanos y te asesoramos!.</p>
+            <div class="margin">
+                <form id="form" action="">
+                    <div class="formcontainer">
+                        <div class="formgroup">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="formgroup">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="formgroup">
+                            <label for="consulta">Escriba su consulta aquí</label>
+                            <textarea name="consulta" id="consulta"></textarea>
+                        </div>
+                        <button type="submit" id="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copy">Página realizada por <br> Axel Ariel Valiente en 2022©.</p>
+    </footer>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

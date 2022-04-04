@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+header {
+    background-color: black;
+    border-bottom: 5px solid #FF4C29;
+    position: sticky;
+    top: 0;
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.imgStyle{
+    width: 140px;
+    height: 90px;
+}
+
+nav{
+    display: block;
+    background-color: #FF4C29;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    display: inline-block;
+    
+}
+
+main{
+    background-color: #082032;
+}
+
+li a {
+    font-size: 2.5rem;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 3px 80px;
+}
+
+
+.divOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 4rem;
+    margin-top: 85px;
+    font-style: italic;
+    color: #FF4C29;
+}
+
+.titleTwo{
+    font-size: 3.5rem;
+    font-style: italic;
+    color: #FF4C29;
+}
+
+.titlethree{
+    font-size: 3rem;
+    font-style: italic;
+    color: #FF4C29;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin: 20px 0px;
+    font-style: italic;
+}
+
+.video {
+    width: 820px;
+    height: 480px;
+}
+
+.pc-one{
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #082032;
+}
+
+.pc-div{
+    width: 300px;
+    height: auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FF4C29;
+}
+.pc-div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pc-div p {
+    font-size: 1.3rem;
+    margin: 5px 0px;
+}
+
+.pc-div h3{
+    font-size: 2rem;
+    margin: 5px 0px;
+}
+
+.pc-div a{
+    background-color: #082032;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 100px;
+    margin: 10px 0px;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hr{
+    border:none;
+    margin: 50px 0px;
+    height: 5px;
+    color: #FF4C29;
+    background-color: #FF4C29;
+}
+
+form{
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: #FF4C29;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label{
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+button{
+    width: 100%;
+    background-color: #082032;
+    font-size: 2rem;
+    margin: 10px 0px;
+    border-radius: 5px;
+    color: inherit;
+    cursor: pointer;
+    border: solid transparent;
+}
+
+.margin{
+    padding-bottom: 100px;
+}
+
+.formcontainer{
+    margin: 25px;
+}
+
+.copy{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+    padding: 10px 0px;
+}
+
+footer{
+    background-color: black;
+    border-top: 5px solid #FF4C29;
+}
+
+@media (max-width: 1050px){
+    
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px;
+    }
+
+    nav{
+        margin-bottom: 10px;
+    }
+
+    li a {
+        font-size: 2rem;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 3px 80px;
+    }
+}
+
+@media (max-width: 820px){
+    .headercontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        position: relative;
+    }
+
+    .video {
+        width: 520px;
+        height: 280px;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-top: 35px;
+    }
+    
+    .titleTwo{
+        font-size: 2.5rem;
+    }
+    
+    .titlethree{
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    
+
+}
+
+@media (max-width: 576px) {
+    .video {
+        width: 315px;
+        height: 180px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-top: 35px;
+    }
+    
+    .titleTwo{
+        font-size: 2rem;
+    }
+    
+    .titlethree{
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+}
