@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="./logo.ico">
     <link rel="stylesheet" href="./styles.css">
     <title>Xen Store</title>
 </head>
@@ -55,7 +56,7 @@
                     </div>
                     <div>
                         <h3>$300 USD</h3>
-                        <a href="#productos">Comprar</a>
+                        <a class="anchor" href="#productos">Comprar</a>
                     </div>
                 </div>
                 <div class="pc-div">
@@ -74,7 +75,7 @@
                     </div>
                     <div>
                         <h3>$600 USD</h3>
-                        <a href="#productos">Comprar</a>
+                        <a class="anchor" href="#productos">Comprar</a>
                     </div>
                 </div>
                 <div class="pc-div">
@@ -90,7 +91,7 @@
                     </div>
                     <div>
                         <h3>$1200 USD</h3>
-                        <a href="#productos">Comprar</a>
+                        <a class="anchor" href="#productos">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -104,15 +105,15 @@
                     <div class="formcontainer">
                         <div class="formgroup">
                             <label for="name">Nombre</label>
-                            <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+                            <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
                         </div>
                         <div class="formgroup">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
                         </div>
                         <div class="formgroup">
                             <label for="consulta">Escriba su consulta aquí</label>
-                            <textarea name="consulta" id="consulta"></textarea>
+                            <textarea name="consulta" id="consulta" required></textarea>
                         </div>
                         <button type="submit" id="submit">Enviar</button>
                     </div>
